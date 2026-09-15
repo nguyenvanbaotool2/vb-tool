@@ -15,7 +15,7 @@ from telebot import types
 from telebot.apihelper import ApiTelegramException
 
 # File gốc của user: đặt cùng thư mục với file bot này trên Render.
-CORE_FILE = os.getenv("VBTOOL_CORE_FILE", "vbtoolvip2k999_final213.py")
+CORE_FILE = os.getenv("VBTOOL_CORE_FILE", "vbtoolvip2k999_final.py")
 
 # Import file tool. Nó có cài dependency lúc import và KHÔNG gọi main() khi import.
 import importlib.util
